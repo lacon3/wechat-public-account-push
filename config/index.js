@@ -74,7 +74,7 @@ export const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "",
+      openUrl: "1",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -97,12 +97,24 @@ export const USER_CONFIG = {
     {
       name: "亲爱的阿星",
       id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
-      useTemplateId: "7_zEOF5fqwjaLoG6gyQKE__Eh6V5-_jcV2MoybhRhEE",
+      useTemplateId: "t9lLbMd_1VHyFd-E1vG36WRNa_eVbbq3hCopgCwOizI",
       province: "湖北",
       city: "荆门",
       horoscopeDate: '10-27',
       horoscopeDateType: '今日',
-      openUrl: "https://www.1212.com/luck/scorpio/20220924.html",
+      openUrl: "",
+      //festivals: [],
+      //customizedDateList: []
+    },
+      {
+      name: "亲爱的阿星",
+      id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
+      useTemplateId: "61MKwMT6sJjHz2CHAi8fcoEPkrHvyDnWx0D2yHL6Uv4",
+      province: "湖北",
+      city: "荆门",
+      horoscopeDate: '10-27',
+      horoscopeDateType: '今日',
+      openUrl: "",
       //festivals: [],
       //customizedDateList: []
     },
@@ -123,7 +135,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
+      id: "",
     },
     // 你可以不断按格式往下增加
     // ...
