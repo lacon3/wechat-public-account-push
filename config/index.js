@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "nWg5ZLG-V8MwPp1Ie6r4pJHH33C1M6hQ_qO3Ckwhorc",
+      useTemplateId: "YB2XVuWG8SQWC3rw_o-mgKaZSGNnFT9jFvrs8O1eh-w",
       // 所在省份
       province: "湖北",
       // 所在城市
@@ -78,11 +78,11 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "阿星", "year": "1997", "date": "10-27"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        //{"type": "*生日", "name": "阿星", "year": "1997", "date": "10-27"},
+        //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "阿星", "year": "1997", "date": "10-27"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+       // {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -97,7 +97,7 @@ export const USER_CONFIG = {
     {
       name: "阿星",
       id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
-      useTemplateId: "nWg5ZLG-V8MwPp1Ie6r4pJHH33C1M6hQ_qO3Ckwhorc",
+      useTemplateId: "YB2XVuWG8SQWC3rw_o-mgKaZSGNnFT9jFvrs8O1eh-w",
       province: "湖北",
       city: "荆门",
       horoscopeDate: '10-27',
@@ -162,10 +162,9 @@ export const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+  
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+   
     // 你可以不断按格式往下增加
     // ...
   ],
