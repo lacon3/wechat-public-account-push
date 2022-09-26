@@ -62,7 +62,7 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "亲爱的阿星",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
+      id: "omBVd5q4Nw6BailEp-e4lapPlnk0",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "LIXl_vdUlFm-vthcc8IU8g6D_gp1tnz7qjd5aGwV4K4",
       // 所在省份
@@ -96,7 +96,7 @@ export const USER_CONFIG = {
     },
     {
       name: "亲爱的阿星",
-      id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
+      id: "omBVd5q4Nw6BailEp-e4lapPlnk0",
       useTemplateId: "t9lLbMd_1VHyFd-E1vG36WRNa_eVbbq3hCopgCwOizI",
       province: "湖北",
       city: "荆门",
@@ -108,7 +108,7 @@ export const USER_CONFIG = {
     },
       {
       name: "亲爱的阿星",
-      id: "omBVd5rgUTylRpk2-B1iCRP7juJI",
+      id: "omBVd5q4Nw6BailEp-e4lapPlnk0",
       useTemplateId: "61MKwMT6sJjHz2CHAi8fcoEPkrHvyDnWx0D2yHL6Uv4",
       province: "湖北",
       city: "荆门",
